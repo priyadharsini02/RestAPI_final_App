@@ -1,0 +1,27 @@
+.cab{
+    background-image: url('nebula2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+    padding-top: 2%;
+    padding-left: 30%;
+
+    color: white;
+  }
+
+  .ab{
+    font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+
+  }

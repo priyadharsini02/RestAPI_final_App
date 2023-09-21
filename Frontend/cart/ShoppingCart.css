@@ -1,0 +1,54 @@
+.cart{
+    background-image: url('purpleblue.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+    color: white;
+
+    overflow-y: auto;
+
+    font-family: 'Croissant One', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Black Ops One', cursive; */
+    /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Cabin Sketch', cursive; */
+    /* font-family: 'Bungee Inline', cursive; */
+    /* font-family: 'Bungee Shade', cursive; */
+    /* font-family: 'Tourney', cursive; */
+    
+  }
+
+  .display {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 45%; 
+    height: 100%; 
+    background-color: rgba(12, 2, 56, 0.253);
+    overflow-y: auto; 
+    z-index: 999; 
+    margin-right: -10%;
+  }
+  
+ 
+  .schead{
+    /* font-family: 'Croissant One', cursive; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Black Ops One', cursive; */
+    /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Cabin Sketch', cursive; */
+    /* font-family: 'Bungee Inline', cursive; */
+    /* font-family: 'Bungee Shade', cursive; */
+    font-family: 'Tourney', cursive;
+  }

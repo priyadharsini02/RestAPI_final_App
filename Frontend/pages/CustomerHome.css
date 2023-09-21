@@ -1,0 +1,31 @@
+  
+/* .py-5 {
+    background-image: url('https://wallpaperaccess.com/full/250472.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  } */
+
+.chome{
+    background-image: url('redblack.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+  }
+  
+ 
+  /* https://cdn.wallpapersafari.com/16/42/oW20Qn.jpg */
+  /* https://c4.wallpaperflare.com/wallpaper/728/926/542/library-ladders-candles-shelves-wallpaper-preview.jpg */
+  /* https://images.unsplash.com/photo-1677024345898-1c901e4b4f33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&w=1000&q=80 */
+  /* https://images.unsplash.com/photo-1677024346663-18e39a172dd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80 */

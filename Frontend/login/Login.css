@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+.login{
+    background-image: url('Books1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position:fixed;
+    padding-left: 37%;
+    padding-top: 8%;
+    padding-right: 37%;
+    margin:0;
+
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 100%;
+
+    color: white;
+
+    border: 10px ;
+  }
+
+  .heading{
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 0.9px rgb(119, 73, 4);
+    font-family: 'Black Ops One', cursive;
+
+
+    font-size: 350%;
+    color: rgb(0, 16, 61);
+  }
+
+ 
+  @media screen and (min-width: 600px) {
+    .border {
+      padding: 5rem;
+      border: 1px solid white;
+      border-radius: 10px;
+      margin: 0.5rem;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+  

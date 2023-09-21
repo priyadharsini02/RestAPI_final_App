@@ -1,0 +1,193 @@
+   .confi{
+    background-image: url('Soundwave.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position:fixed;
+    padding:14%;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+    font-size: 200%;
+
+  }
+
+  .chead {
+    color: #d1d1d1;
+    text-shadow: 4px 4px 1px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.7px #888686;
+    font-size: 200%;
+  }
+
+  .adminbtn{
+    background-color: rgba(125, 184, 189, 0.753);
+    color: rgb(2, 4, 71);
+    border: 1px solid;
+    font-weight: bold;
+    box-shadow: 3px 5px 2px #d1d1d177;
+  }
+
+  .custbtn{
+    background-color: rgba(184, 133, 133, 0.753);
+    color: rgb(43, 1, 1);
+    border: 1px solid;
+    font-weight: bold;
+    box-shadow: 3px 5px 2px #d1d1d177;
+  }
+
+  /* animation */
+  /* a1 */
+  .loading-text {
+    font-size: 24px;
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* a2 */
+   @keyframes ellipsis {
+    0% {
+      content: "";
+    }
+    13% {
+      content: "L";
+    }
+    28% {
+      content: "LO";
+    }
+    40% {
+      content: "LOA";
+    }
+    57% {
+      content: "LOAD";
+    }
+    71% {
+      content: "LOADI";
+    }
+    83% {
+      content: "LOADIN";
+    }
+    100% {
+      content: "LOADING";
+    }
+  }
+  
+  .loading-text::after {
+    content: "...";
+    display: inline-block;
+    animation: ellipsis 1.5s steps(3) infinite;
+    color: rgb(211, 209, 209);
+    font-weight: bolder;
+  }
+  
+/* a3 */
+  @keyframes gradient-color {
+    0% {
+      background: linear-gradient(90deg, rgb(255, 0, 0), rgb(186, 204, 206, 0.685), rgb(2, 49, 121));
+      background-size: 200% 100%;
+      background-position: 0% 0%;
+    }
+    100% {
+      background: linear-gradient(90deg,  rgb(255, 0, 0), rgba(186, 204, 206, 0.685), rgb(2, 49, 121));
+      background-size: 200% 100%;
+      background-position: -100% 0%;
+    }
+  }
+  
+  .loading {
+    background: linear-gradient(90deg, #f06, #9f6, #06f);
+    background-size: 200% 100%;
+    animation: gradient-color 2s linear infinite;
+    color: transparent;
+  }
+  
+/* a4 */
+  /* @keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .loading-text {
+    animation: blink 1s infinite;
+  }
+   */
+
+
+/* a5 */
+  /* @keyframes floating-dots {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .loading-text::after {
+    content: "\2022\2022\2022"; 
+    display: inline-block;
+    animation: floating-dots 1s ease-in-out infinite;
+  } */
+  
+
+
+/* A6 */
+  /* @keyframes color-change {
+    0% {
+      color: #3498db;
+    }
+    50% {
+      color: #e74c3c;
+    }
+    100% {
+      color: #3498db;
+    }
+  }
+  
+  .loading-text {
+    animation: color-change 2s ease-in-out infinite;
+  }
+   */
+
+
+/* a7 */
+   /* @keyframes wave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-5px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(5px);
+    }
+  }
+  
+  .loading-text {
+    display: inline-block;
+    animation: wave 2s ease-in-out infinite;
+  } */
+  
+
+  
